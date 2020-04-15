@@ -5,6 +5,31 @@
 }
 .d{
     left: 28%;
-   
 }
 
+.grip{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    overflow:hidden;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+/* <!-- ventana emergente cuando la partida termine -->
+        <div class="hidden-md-down" >
+            <!-- contenido del popup -->
+            <div class="content-popup">
+                <img src="img/trophy.svg" alt="">
+                <h1>Congratulation!</h1>
+                <p>your time</p>
+                <p class="time">00:00</p>
+                <!-- iconos -->
+                <div class="icons">
+                    <a href="home.html"><img src="img/home.svg" alt="Home">Home</a>
+                    <a href="dashboard.html"><img src="img/replay.svg" alt="Play again">Play again</a>
+                </div>
+            </div>
+        </div>
+        <!-- contenedor principal -->-*
