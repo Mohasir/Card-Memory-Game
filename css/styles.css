@@ -1,0 +1,11 @@
+.over_text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.bottom-aligned {
+    display: flex;
+    align-items: flex-end;
+}
