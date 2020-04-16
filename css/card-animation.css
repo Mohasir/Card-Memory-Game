@@ -26,12 +26,12 @@ body{
     margin: 0.5em;
 } 
 
-#btn-replay{
+.btn-replay{
     width: 40px;
     margin: 2em;
 }
 
-#timer{
+.timer, .movements{
     width: 100px;
     text-align: center;
     font-size: 2em;
