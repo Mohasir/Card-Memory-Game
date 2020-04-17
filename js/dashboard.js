@@ -16,7 +16,7 @@ let timer = document.querySelectorAll('.timer');
 let popupWin = document.querySelector('.cont-popup')
 let scroll = document.querySelector('body')
 let images = [], as = [];
-let pairs = 0, interval;
+let pairs = 1, interval;
 
 window.addEventListener('load', () => {
     startGame();
@@ -113,9 +113,8 @@ const startGame = () => {
         delay: anime.stagger(200, { grid: [4, 4], from: 'center' }),
     });
     //movements.textContent = 0;
-    pairs = 0;
+    pairs = 1;
     images = getPathRandom(8);
-    console.log(images)
     startTimer();
 }
 
