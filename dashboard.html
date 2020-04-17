@@ -4,64 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card memory | Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
-<body>
-    <!-- ventana emergente cuando la partida termine -->
-    <div class="cont-popup">
-        <!-- contenido del popup -->
-        <div class="content-popup">
-            <img src="img/trophy.svg" alt="">
-            <h1>Congratulation!</h1>
-            <p>your time</p>
-            <p class="time">00:00</p>
-            <!-- iconos -->
-            <div class="icons">
-                <a href="home.html"><img src="img/home.svg" alt="Home">Home</a>
-                <a href="dashboard.html"><img src="img/replay.svg" alt="Play again">Play again</a>
-            </div>
-        </div>
-    </div>
-    <!-- contenedor principal -->
-    <div class="container">
-        <!-- imagen para el logo --> 
-        <img src="img/logo.png" alt="CardMemoryLogo" >
-       <!--  imagen para el logo de marvel studios -->
-        <img src="img/MarvelStudiosLogo.png" alt="MarvelLogo" >
-        <!-- contenor para el tablero -->
-        <div class="cont-dashboard">
-            <div class="dashboard-header">
-                <!-- icono volver a home -->
-                <a href="home.html"><img src="img/home.svg" alt="Home"></a>
-                <!-- icono reiniciar -->
-                <img src="img/replay.svg" alt="Play again">
+<body >
+    
+    <div  style="overflow:auto;">
+        <div class="mx-auto "  style="background-color: rgba(255,255,255,0.6);">
+            <img  src="img/background-dashboard.jpg" alt="" style="position:absolute; opacity: 55%;height: 135%;">
+            <div class=" mx-auto " style="height: 10%;display:list-item;opacity: 65%;" >
+                <!-- imagen para el logo --> 
+                <img class="col-4  img-fluid" src="img/logo.png" alt="CardMemoryLogo" style="height: 100px;width: 200px; " >
                 <!-- tiempo de juego -->
-                <p>00:00</p>
-            </div>
-            <!-- contenedor para las tarjetas -->
-            <div class="dashboard-card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card"> 
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card"> 
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card"> 
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card">
-                <img class="card" src="img/cards/card-back.png" alt="card"> 
-                <img class="card" src="img/cards/card-back.png" alt="card">
-            </div>
-        </div>
+                <img class="img-fluid  col-3"  src="img/MarvelStudiosLogo.png" alt="MarvelLogo" style="height: 50px;float: right;margin-top: 20px;">  
+            </div> 
+
+            <div style="opacity: 85%;"> 
+                <div style="text-align:center">
+                    <!--  imagen para el logo de marvel studios -->
+                    <a  href="home.html"><img class=" img-fluid" src="img/home.svg" alt="Home" style="width: 50px; "></a>
+                    <img class=" img-fluid " src="img/replay.svg" alt="Play again"style="width:50px;margin-left: 15%;margin-right:15% ;">                  
+                    <!-- icono volver a home -->
+                    <!-- icono reiniciar -->
+                    <p style="display:inline-block;">00:00</p>
+                   
+                </div>
+                  <!-- contenedor para las tarjetas -->
+                <div class="mx-auto" style="width: 500px;border-radius: 25px ;border:black solid 10px;background-color: rgba(251,255,143,0.5);"   >
+                   <div class="grip mx-auto "style="width:400px">
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" > 
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" > 
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" > 
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" > 
+                    <img class="img-fluid" src="img/cards/card-back.png" alt="card" style="height:200px;text-align: center;" >
+                   </div>
+                    
+                </div>
+            </div> 
+            
+            
+        <div>                
     </div>
-    <!-- footer -->
-    <footer>
-        <small>&copy Samsoft 2020</small>
-    </footer>
+   
 </body>
 </html>

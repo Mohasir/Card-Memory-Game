@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card memory | Home</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="http://allfont.es/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="vendor/fontawesome-free-5.11.2-web/css/all.css">
 </head>
 <body>
     <!-- contenedor principal -->
-    <div class="container">
-        <div>
-            <!-- imagen del logo de marvel -->
-            <img src="img/MarvelLogo.svg" alt="MarvelLogo">
-            <!-- imagen del logo -->
-            <img src="img/logo.svg" alt="CardMemoryLogo">
+    <div style="background-color: rgb(249,252,163);"  >
+
+        <div class="container  vh-100 " >
+            <div class=" mx-auto bottom-aligned  " style="height:35% ;">
+                <!-- imagen del marvel-->
+                <img class=" d" style="position: absolute;" src="img/MarvelStudiosLogo.png" alt="" width="20%"  >
+            </div>
+            <div class="col-10 mx-auto " style="display: grid;" >       
+                <!-- imagen del logo -->
+                <img class="mx-auto "  src="img/logo.svg" alt="CardMemoryLogo" width="80%" >                
+            </div>
+            <!-- boton play -->
+            <div class="col-1 mx-auto " style="display: grid;" >          
+                <a href="dashboard.html"><img  src="img/btn-play.svg" alt="play" width="100%" height="100% "></a>
+                <p class="text-center "  style="font-family: 'Comic Sans MS', arial; " >Play</p>
+            </div>
         </div>
-        <!-- boton play -->
-        <div>
-            <a href="dashboard.html"><img src="img/btn-play.svg" alt="play"></a>
-            <p>Play</p>
-        </div>
+        <div >
+            
+        <h6 style=" display: line;right: 80%; background-color: rgb(249,252,163);">&copy MarSamsoft 2020</h6>
+        </div>            
     </div>
-    <!-- footer -->
-    <footer>
-        <!-- iconos -->
-        <div class="cont-icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-        </div>
-        <small>&copy Samsoft 2020</small>
-    </footer>
 </body>
 </html>
