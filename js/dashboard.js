@@ -12,7 +12,7 @@ let pathImages = ['img/cards/card-back.png',
 let btnReplay = document.querySelectorAll('.btn-replay');
 let card = document.querySelectorAll('.card');
 let timer = document.querySelectorAll('.timer');
-let movements = document.querySelector('.movements');
+//let movements = document.querySelector('.movements');
 let popupWin = document.querySelector('.cont-popup')
 let scroll = document.querySelector('body')
 let images = [], as = [];
@@ -85,7 +85,7 @@ const matching = (ar) => {
         }
 
         pairs++
-        movements.textContent = parseInt(movements.textContent) + 1
+        //movements.textContent = parseInt(movements.textContent) + 1
         as = [];
     } else {   // si no son iguales se voltean las tarjetas
         window.setTimeout(() => {
@@ -97,7 +97,7 @@ const matching = (ar) => {
                 duration: 500
             });
             as = [];
-            movements.textContent = parseInt(movements.textContent) + 1
+            //movements.textContent = parseInt(movements.textContent) + 1
         }, 500);
     }
 }
@@ -112,9 +112,10 @@ const startGame = () => {
         ],
         delay: anime.stagger(200, { grid: [4, 4], from: 'center' }),
     });
-    movements.textContent = 0;
+    //movements.textContent = 0;
     pairs = 0;
     images = getPathRandom(8);
+    console.log(images)
     startTimer();
 }
 
