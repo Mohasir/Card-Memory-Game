@@ -1,3 +1,6 @@
+body{
+    font-family: 'Comic Sans MS', arial;
+}
 
 .bottom-aligned {
     display: flex;
@@ -11,8 +14,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
-    
-    padding: 5px 5px 5px 5px;
+    column-gap: 15px;
+    row-gap: 10px;
+    padding: 1rem 2rem;
 }
 
 /* estilos para el home */
@@ -23,6 +27,47 @@
 .home{
     background-color: rgb(249,252,163,0.80);
     min-height: 100vh;
+}
+
+/* estilos para dashboard */
+
+.cont-dashboard{
+    background-image: url('../img/background-home.jpg');
+    background-size: contain;
+}
+
+.bg-dashboard{
+    background-color: rgba(255,255,255,0.6);
+    
+}
+
+.dashboard{
+    min-height: 100vh;
+
+}
+
+.header-dashboard{
+    width: 30%;
+    color: rgb(41,9,4);
+}
+
+.dashboard-card{
+    border-radius: 25px ;
+    border:black solid 5px;
+    background-color: rgba(251,255,143,0.9);
+}
+
+.card{
+    height: 120px;
+    box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.75);
+}
+
+.bg-dashboard > .logo-marvel{
+    right: 0;
+}
+
+.btn-replay{
+    cursor: pointer;
 }
 
 /* estilos para el popup */
@@ -72,17 +117,35 @@
         min-height: vh100;
     }
 
-    .logo-marvel{
+    .home > .logo-marvel{
         width: 20%;
     }
 
-    .logo-card-memory{
+    .home > .logo-card-memory{
         width: 60%;
     }
 
     .btn-play{
         width: 60%;
     }
+
+    .header-dashboard{
+        width: 80%;
+    }
+    
+    .dashboard-card{
+        width: 90%;
+    }
+
+    .grip{
+        padding: 1rem 1rem;
+    }
+
+    .bg-dashboard > .logo-marvel, .logo-card-memory{
+        width: 100px;
+    }
+    
+    
  }
 
 /* <!-- ventana emergente cuando la partida termine -->
