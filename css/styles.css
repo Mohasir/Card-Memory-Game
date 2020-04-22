@@ -73,7 +73,7 @@ body{
 /* estilos para el popup */
 
 .cont-popup{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -92,6 +92,7 @@ body{
     padding: 1em;
     width: 40%;
     background-color: rgb(249,252,163);
+    color: rgb(118,93,65);
 }
 
 .cont-icons{
@@ -104,6 +105,7 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 0 2em;
+    color: rgb(118,93,65);
 }
 
 
@@ -145,6 +147,9 @@ body{
         width: 100px;
     }
     
+    .content-popup{
+        width: 85%;
+    }
     
  }
 
