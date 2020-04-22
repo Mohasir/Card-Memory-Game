@@ -27,7 +27,7 @@ btnReplay.forEach((el) => {
     el.addEventListener('click', () => {
         startGame();
         popupWin.style.display = 'none';
-        scroll.style.overflowY = 'scroll';
+        //scroll.style.overflowY = 'scroll';
         card.forEach((element) => element.src = pathImages[0]);
     });
 })
