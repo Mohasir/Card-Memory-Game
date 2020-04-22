@@ -79,6 +79,10 @@
     .logo-card-memory{
         width: 60%;
     }
+
+    .btn-play{
+        width: 60%;
+    }
  }
 
 /* <!-- ventana emergente cuando la partida termine -->
