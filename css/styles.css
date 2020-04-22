@@ -73,7 +73,7 @@ body{
 /* estilos para el popup */
 
 .cont-popup{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;
