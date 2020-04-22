@@ -15,6 +15,15 @@
     padding: 5px 5px 5px 5px;
 }
 
+/* estilos para el home */
+.cont-home{
+    background-image: url('../img/background-dashboard.jpg');
+}
+
+.home{
+    background-color: rgb(249,252,163,0.80);
+}
+
 /* estilos para el popup */
 
 .cont-popup{
@@ -52,6 +61,24 @@
 }
 
 
+@media (max-width: 992px) { 
+
+    .cont-home{
+        height: 100%;
+    }
+
+    .home{
+        min-height: vh100;
+    }
+
+    .logo-marvel{
+        width: 20%;
+    }
+
+    .logo-card-memory{
+        width: 60%;
+    }
+ }
 
 /* <!-- ventana emergente cuando la partida termine -->
         <div class="hidden-md-down" >
